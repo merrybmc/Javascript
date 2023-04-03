@@ -21,4 +21,4 @@ let add3 = (a, b) => a + b;
 // IIFE (Immedicately-Invoked Function Expressions) 즉각호출함수
 (function run() {
   console.log('👍');
-});
+})();
