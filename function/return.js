@@ -10,7 +10,7 @@ console.log(result);
 
 // return을 함수 중간에 하게 되면 함수가 종료됨
 // 사용예 : 조건이 맞지 않는 경우 함수 도입 부분에서 함수를 일찍이 종료함
-function print(text) {
+function print(text, num) {
   if (num < 0) {
     return;
   }
@@ -18,3 +18,7 @@ function print(text) {
 }
 
 print('테스트');
+
+function test(a, b) {}
+
+console.log(test(2));

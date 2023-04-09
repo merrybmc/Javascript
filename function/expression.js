@@ -6,6 +6,12 @@ let add = function (a, b) {
   return a + b;
 };
 
+const name = function myName() {
+  return 'byeongMin';
+};
+
+myName();
+
 console.log(add(1, 2));
 
 // 화살표 함수 표현식 const name = () => {}

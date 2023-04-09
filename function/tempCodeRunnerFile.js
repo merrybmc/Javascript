@@ -17,9 +17,9 @@ console.log(value);
 
 function displayObj(obj) {
   obj.name = 'Bob'; // 💩💩💩💩💩 외부로 부터 주어진 인자(오브젝트)를 내부에서 변경하지 않아야 한다.
-  console.log(obj.name);
+  console.log(obj);
 }
 
 const myName = { name: 'byeongmin' };
 displayObj(myName);
-console.log(myName.name);
+console.log(myName);
