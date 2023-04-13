@@ -22,3 +22,4 @@ class Fruit {
 const banana = Fruit.makeRandomFruit();
 
 banana.display();
+console.log(Fruit.MAX_FRUITS);
